@@ -1,0 +1,6 @@
+sqlite3.db
+package-lock.json
+dist/*
+dist
+node_modules
+mode_modules/*

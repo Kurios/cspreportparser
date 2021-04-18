@@ -1,0 +1,23 @@
+{
+  "name": "cspreportparser",
+  "version": "0.0.1",
+  "description": "A Report Parsing Server for CSP pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p .",
+    "start": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/sqlite3": "^3.1.7",
+    "better-sqlite3": "^7.1.5",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^5.4.1",
+    "@types/node": "^14.14.41",
+    "typescript": "^4.2.4"
+  }
+}
